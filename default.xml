@@ -3,6 +3,10 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+  
+  <remote  name="github"
+           fetch="http://github.com" />
+
   <default revision="4.0.3_r1"
            remote="aosp"
            sync-j="4" />
@@ -25,6 +29,8 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
+  <project path="device/samsung/p5-common" name="Galaxian-Soup/p5-common_android_ics_device_tree" remote="github" />
+  <project path="device/samsung/p5wifi" name="Galaxian-Soup/p5wifi_android_ics_device_tree" remote="github" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
