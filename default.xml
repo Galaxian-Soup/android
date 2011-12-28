@@ -7,14 +7,14 @@
   <remote  name="github"
            fetch="http://github.com" />
 
-  <default revision="4.0.3_r1"
+  <default revision="master"
            remote="aosp"
            sync-j="4" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="abi/cpp" name="platform/abi/cpp" revision="master" />
+  <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
