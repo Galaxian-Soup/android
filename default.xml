@@ -5,14 +5,13 @@
            fetch="https://android.googlesource.com/" />
   
   <remote  name="github"
-           fetch="http://github.com" 
-           revision="ics" />
+           fetch="http://github.com" />
 
   <default revision="master"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Galaxian-Soup/android_build" remote="github" revision="master" >
+  <project path="build" name="Galaxian-Soup/android_build" remote="github" revision="ics" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -30,8 +29,8 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
-  <project path="device/samsung/p5-common" name="Galaxian-Soup/p5-common_android_ics_device_tree" remote="github" />
-  <project path="device/samsung/p5wifi" name="Galaxian-Soup/p5wifi_android_ics_device_tree" remote="github" />
+  <project path="device/samsung/p5-common" name="Galaxian-Soup/p5-common_android_ics_device_tree" remote="github" revision="ics" />
+  <project path="device/samsung/p5wifi" name="Galaxian-Soup/p5wifi_android_ics_device_tree" remote="github" revision="ics" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -167,11 +166,11 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/cm" name="Galaxian-Soup/android_hardware_cm" remote="github" />
+  <project path="hardware/cm" name="Galaxian-Soup/android_hardware_cm" remote="github" revision="ics" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="Galaxian-Soup/android_hardware_libhardware_legacy" remote="github" />
+  <project path="hardware/libhardware_legacy" name="Galaxian-Soup/android_hardware_libhardware_legacy" remote="github" revision="ics" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
@@ -197,7 +196,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="Galaxian-Soup/android_packages_apps_Launcher2" remote="github"/>
+  <project path="packages/apps/Launcher2" name="Galaxian-Soup/android_packages_apps_Launcher2" remote="github" revision="ics" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
@@ -207,7 +206,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="Galaxian-Soup/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="Galaxian-Soup/android_packages_apps_Settings" remote="github" revision="ics" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -243,7 +242,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="Galaxian-Soup/android_system_extras" remote="github" />
+  <project path="system/extras" name="Galaxian-Soup/android_system_extras" remote="github" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
