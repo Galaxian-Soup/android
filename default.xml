@@ -31,6 +31,7 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/samsung/p5-common" name="Galaxian-Soup/p5-common_android_ics_device_tree" remote="github" revision="ics" />
   <project path="device/samsung/p5wifi" name="Galaxian-Soup/p5wifi_android_ics_device_tree" remote="github" revision="ics" />
+  <project path="device/samsung/p5" name="Galaxian-Soup/p5_android_ics_device_tree" remote="github" revision="ics" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
